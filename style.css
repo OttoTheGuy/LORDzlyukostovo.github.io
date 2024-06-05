@@ -1,0 +1,120 @@
+html {
+    background-image: url(https://i.pinimg.com/originals/9a/6e/96/9a6e96cdea424cab551eafcddb254765.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/* контент */
+
+body {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+img {
+    max-width: 500px;
+    max-height: 500px;
+}
+
+.img-cen {
+    display: inline;
+    margin: 20px;
+
+}
+
+.img-nya {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+    float: right;
+    margin: 15px;
+}
+
+.mrrk {
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+}
+
+.boom {
+    max-width: 400px;
+    max-height: 400px;
+}
+
+.pipisya {
+    margin-left: 35px;
+}
+
+.oif {
+    list-style: none;
+}
+
+.fullform {
+
+    font-family: Comic Sans MS;
+    font-size: 125%;
+    align-items: center;
+    justify-content: center;
+    padding: 7px;
+    padding-top: 0%;
+    padding-left: 25px;
+    padding-right: 25px;
+    background-image: url(https://i.pinimg.com/564x/1d/c9/87/1dc98719cc44d1b7429c86939a7f157e.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 3px solid var(--border-color-base, #ffffffa7);
+}
+
+/* о персонажах */
+.meow {
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.meow>nav>ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    margin-bottom: 5%;
+    padding: 0;
+}
+
+.meow>nav>ul>li>a {
+    font-family: Comic Sans MS;
+    display: block;
+    padding: 10px;
+    font-size: 110%;
+    background-image: url(https://i.pinimg.com/originals/af/15/22/af15225983e9c39cc9563334efb5218e.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 3px solid var(--border-color-base, #ffffffa7);
+}
+
+/* background-color: #ffffff62; */
+
+/* верхняя навигация */
+.nav-cont {
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-cont>nav>ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    margin-bottom: 5%;
+    padding: 0;
+}
+
+.nav-cont>nav>ul>li>a {
+    font-family: Comic Sans MS;
+    display: block;
+    padding: 10px;
+    font-size: 110%;
+    background-image: url(https://i.pinimg.com/564x/1d/c9/87/1dc98719cc44d1b7429c86939a7f157e.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 3px solid var(--border-color-base, #ffffffa7);
+}
